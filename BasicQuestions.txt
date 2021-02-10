@@ -7,7 +7,7 @@
     -Null
     -Undefined
     -Symbol
-*Non-Primitive types differ in that they are not limited to storing a single values.*
+*Non-Primitive types differ in that they are not limited to storing a single value.*
     -Objects
     -Arrays
     -Functions
@@ -16,7 +16,7 @@
 3.Difference between "==" and "===" operators.
     The "==" operartor checks if two values are the same w/o considering typeOf, while "===" checks for value && typeOf.
 4.Explain implicit type Coercion in Javascript.
-    The automatic converstion of value from one datatype to another.
+    The automatic conversion of value from one datatype to another.
     This tends to happen with "+" operator: When an Integer is added to a String the number type will always be converted to a String as well
     However, when using the "-" operartor the variable with typeof Integer will be converted to a string and then subracted.
 5.Is javascript a statically or dynamically typed language?
