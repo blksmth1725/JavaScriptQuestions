@@ -1,0 +1,30 @@
+1. What are arrow functions?
+    New and shorter syntax for defining functions in javascript. Arrow functions can only be function expressions (NOT function declrations). 
+    The biggest difference between a traditional function expression and an arrow function is the way they handle the "this" keyword.   
+    See AdvancedExamples.js
+2. Differences between declaring variables using var, let and const.
+3. What is the rest parameter and spread operator?
+    Both were introduced in ES6 JavaScript.
+    - An improved way of handling parameters of a function 
+    - Rest parameter syntax allows us to create a function that takes in a variable amount of 
+      arguemnts
+    - Any number of arguments will be converted into an array using the rest parameter 
+    - Used by applying three dots in front of function arguments/parameters => (...)
+    - See AdvancedExamples.js
+4. What is the use of promises in javascript?
+    Promises are used to handle asynchronous operations in JavaScript.
+    Before promises, callbacks were used to handle asynchronous operations in JavaScript. Due to the limited functionality of a callback promises were introduced to make code more managable and readable.
+    PROMISES HAVE 4 STATES:
+    - Pending - initial state of promise. This state represents that the promise has neither been fufilled nor rejected, it is in a pending state.
+    - Fulfilled - meaning the aysnchronous operation is completed
+    - Rejected - meaning the aysnchronous operation FAILED to execute
+    - Settled - representing that the promise has been either rejected or fulfilled.
+5. What are classes in javascript?
+    Classes are syntactic sugar for JS contructor functions 
+    Provide a new way of declaring constructor functions in JavaScript
+    
+6. What are generator functions?
+7. Explain WeakSet in javascript.
+8. Explain WeakMap in javascript.
+9. What is Object Destructuring?
+10. What is a Temporal Dead Zone?

@@ -1,0 +1,54 @@
+1.What are the different data types present in javascript?
+    The current data types are:
+    -Strings
+    -Integers
+    -BigInt
+    -Booleans
+    -Null
+    -Undefined
+    -Symbol
+*Non-Primitive types differ in that they are not limited to storing a single values.*
+    -Objects
+    -Arrays
+    -Functions
+2.Explain Hoisting in Javascript.
+    Hoisting is Javascripts default behavior of moving all Variable and Fucntion declarations to the top of the current scope. (both local and global)
+3.Difference between "==" and "===" operators.
+    The "==" operartor checks if two values are the same w/o considering typeOf, while "===" checks for value && typeOf.
+4.Explain implicit type Coercion in Javascript.
+    The automatic converstion of value from one datatype to another.
+    This tends to happen with "+" operator: When an Integer is added to a String the number type will always be converted to a String as well
+    However, when using the "-" operartor the variable with typeof Integer will be converted to a string and then subracted.
+5.Is javascript a statically or dynamically typed language?
+    JavaScript is a dynamically typed language which means that variables typeof is checked during runtime whereas statically typed languages typeof is checked during compile time.
+    Variables in javascript are not associated with any type. However a variable can hold a value of any type.
+6.Explain Passed by value and passed by reference.
+    Passed by value refers to the difference between how primitives and non-primitives are stored in memory. When passing a primitive, because of the way it is allocated space in memory, primitives are passed by their value. This differs in non-primitives in that when passed they are passed the location in memory of said variable, ergo by reference 
+7.What is NaN property in Javascript?
+    NaN property represents the "Not-a-Number". the typeof is Number
+8.What is an immedietly invoked function in javascript?
+    An immediately invoked function expression is a function expression that is executed immediately preventing the pollution of the global scope and serving as a way to isolate variable declarations     
+9.Explain Higher Order Functions in javascript.
+    Higher order functions are functions that operate on other functions by taking them as arguements or by returning them.
+10. Explain “this” keyword.
+    refers to the object that the function is a property of.
+11. Explain call(), apply() and, bind() methods.
+    *See code examples*
+12. What is Currying in javascript?
+13. Explain Scope and Scope Chain in javascript.
+14. Explain Closures in JavaScript.
+    Closure is the ability of a function to remeber variables and functions that are declared in the outer scope
+15. What are object prototypes?
+16. What are callbacks?
+    Callbacks are functions that can be passed as arguements to other functions, can be returned by another function and can be used as property of an object => functions that are used as an argument to anther function are cakked callback functions.
+17. What is memoization?
+    Memoization refers to the proccess of caching the return value of a function based on its paramaters. If the parameter of that function is not changed, the cached version of the function is returned
+18. What is recursion in a programming language?
+    Recursion is the technique to iterate over an operation by having a function call itself repeatedly until it arrives at a result.
+19. What is the use of a constructor function in javascript?
+    Constructor functions are used to create new objects in JavaScript. NOTE: when creating a constructor function you must always name it in pascal notation (see examples file)
+20. What is DOM?
+    The DOM stands for Document Object Model. It is a programming interface for HTML & XML
+    When the browser the browser tries to render an HTML document, an object is created based on the HTML document  (called the DOM). By using the DOM we can manipulate/change elements inside the HTML document.
+21. Explain the difference between runtime and compiletime.
+    Compilation is the process of taking the source code written by a programmer and compiling it into an executable file. Runtime occurs when the executable code starts running. Errors are either runtime errors or compiletime errors. Compile time errors can be syntactic or semantic.
